@@ -1,16 +1,17 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Collections.Generic;
 
 namespace Wooden.Models
 {
-    public class CategoriaJuguetes
+
+    public class UsuarioAdmin
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id {get;set;}
-        [Required]
-        public string Nombre {get;set;}
-        public List<Juguetes> Juguetes {get;set;}
+        [Required(ErrorMessage = "Ingrese usuario")]
+        public string Usuario {get;set;}
+        [Required(ErrorMessage = "Ingrese contraseña")]
+        public string Password {get;set;}
     }
 }

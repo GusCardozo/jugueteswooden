@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Wooden.Models;
+using Wooden.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Wooden.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly JuguetesContext _context;
+        public HomeController(JuguetesContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
@@ -26,16 +27,12 @@ namespace Wooden.Controllers
         {
             return View();
         }
-        public IActionResult Store()
+        public async Task<IActionResult> Store()
         {
-            return View();
+            var juguetes = await _context.Juguetes.ToListAsync();
+            return View(juguetes);
         }
         public IActionResult Contact()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }

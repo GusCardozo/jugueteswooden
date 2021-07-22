@@ -15619,8 +15619,8 @@
   "RootNamespace": "Wooden",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\LIBRE3\\Desktop\\html gus\\Comunidad IT\\Juguetes Wooden\\Wooden\\Views\\Login\\login.cshtml",
-      "TargetPath": "Views\\Login\\login.cshtml",
+      "FilePath": "c:\\Users\\LIBRE3\\Desktop\\html gus\\Comunidad IT\\Juguetes Wooden\\Wooden\\Views\\Login\\Login.cshtml",
+      "TargetPath": "Views\\Login\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15631,11 +15631,6 @@
     {
       "FilePath": "c:\\Users\\LIBRE3\\Desktop\\html gus\\Comunidad IT\\Juguetes Wooden\\Wooden\\Views\\Home\\About.cshtml",
       "TargetPath": "Views\\Home\\About.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\LIBRE3\\Desktop\\html gus\\Comunidad IT\\Juguetes Wooden\\Wooden\\Views\\Login\\Index.cshtml",
-      "TargetPath": "Views\\Login\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15654,8 +15649,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\LIBRE3\\Desktop\\html gus\\Comunidad IT\\Juguetes Wooden\\Wooden\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\LIBRE3\\Desktop\\html gus\\Comunidad IT\\Juguetes Wooden\\Wooden\\Views\\Cart\\Index.cshtml",
+      "TargetPath": "Views\\Cart\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIBRE3\\Desktop\\html gus\\Comunidad IT\\Juguetes Wooden\\Wooden\\Views\\Categoria\\Eliminar.cshtml",
+      "TargetPath": "Views\\Categoria\\Eliminar.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15679,8 +15679,38 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\LIBRE3\\Desktop\\html gus\\Comunidad IT\\Juguetes Wooden\\Wooden\\Views\\Juguetes\\Create.cshtml",
+      "TargetPath": "Views\\Juguetes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIBRE3\\Desktop\\html gus\\Comunidad IT\\Juguetes Wooden\\Wooden\\Views\\Juguetes\\Editar.cshtml",
+      "TargetPath": "Views\\Juguetes\\Editar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\LIBRE3\\Desktop\\html gus\\Comunidad IT\\Juguetes Wooden\\Wooden\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIBRE3\\Desktop\\html gus\\Comunidad IT\\Juguetes Wooden\\Wooden\\Views\\Juguetes\\Eliminar.cshtml",
+      "TargetPath": "Views\\Juguetes\\Eliminar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIBRE3\\Desktop\\html gus\\Comunidad IT\\Juguetes Wooden\\Wooden\\Views\\Categoria\\Index.cshtml",
+      "TargetPath": "Views\\Categoria\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIBRE3\\Desktop\\html gus\\Comunidad IT\\Juguetes Wooden\\Wooden\\Views\\Juguetes\\Index.cshtml",
+      "TargetPath": "Views\\Juguetes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIBRE3\\Desktop\\html gus\\Comunidad IT\\Juguetes Wooden\\Wooden\\Views\\Categoria\\Editar.cshtml",
+      "TargetPath": "Views\\Categoria\\Editar.cshtml",
       "FileKind": "mvc"
     }
   ],

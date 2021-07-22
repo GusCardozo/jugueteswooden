@@ -1,3 +1,5 @@
+@model List<Wooden.Models.Juguetes>
+
 <!-- Empieza Nuestro Trabajo -->
 <section class="container py-5">
     <div class="row justify-content-center my-5">
@@ -10,6 +12,26 @@
         </div>
     </div>
     <div class="row projects gx-lg-5">
+        @foreach (var item in Model)
+        {
+            <div class="col-sm-6 col-lg-4 text-decoration-none project">
+                <div class="service-work overflow-hidden card mb-5 mx-5 m-sm-0">
+                    <img class="card-img-top" src="@item.Foto" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title semi-bold-600 text-dark">@item.Nombre</h5>
+                        <p class="card-text light-300 text-dark">
+                            @item.Detalle
+                        </p>
+                        <p>
+                           $@item.Precio
+                        </p>
+                        <span class="text-decoration-none text-primary light-300">
+                            Agregar al carrito <i class='bx bxs-cart ms-1'></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        }
         <a href="#" class="col-sm-6 col-lg-4 text-decoration-none project didacticos">
             <div class="service-work overflow-hidden card mb-5 mx-5 m-sm-0">
                 <img class="card-img-top" src="~/img/juguete-01.png" alt="...">

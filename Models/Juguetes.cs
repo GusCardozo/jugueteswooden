@@ -1,5 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Wooden.Models
 {
@@ -17,6 +19,7 @@ namespace Wooden.Models
         [Required]
         public double Precio{get;set;}
         [Required]
+        public int CategoriaId {get;set;}
         public CategoriaJuguetes Categoria {get;set;}
     }
 }
